@@ -1,0 +1,26 @@
+name: eyespace-python
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - numpy
+  - scipy
+  - sympy=1.6
+  - numba
+  - joblib
+  - Jinja2
+  - jupyter
+  - notebook
+  - flask
+  - pyyaml
+  - plotly
+  - pip
+  - pip:
+      - python-json-logger
+      - pytest
+      - schema
+      - pathos
+      - untangle
+      - blinker
+      - click
+      - black==20.8b1

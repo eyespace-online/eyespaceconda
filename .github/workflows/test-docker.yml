@@ -1,0 +1,12 @@
+on: push
+jobs:
+  test_docker:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - run: docker build . 
+        working-directory: src

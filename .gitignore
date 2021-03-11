@@ -1,0 +1,15 @@
+*.DS_Store
+__pycache__
+*.pyc
+*.egg
+.src/
+.vagrant/
+dist/
+cache/
+tmp/
+htmlcov/
+.clmath2.egg-info/
+clmath2.egg-info/
+.eggs/
+*.swp
+requirements.txt
