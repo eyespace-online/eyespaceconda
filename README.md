@@ -1,4 +1,4 @@
-# EyeSpace Python3 Environment
+# EyeSpace Conda
 
 This repository defines the standard runtime environment for Python 3 at EyeSpace.
 We publish this in a Docker image that can be used in any environment.
