@@ -24,3 +24,4 @@ dependencies:
       - blinker
       - click
       - black==20.8b1
+      - awslambdaric
